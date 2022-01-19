@@ -1,0 +1,12 @@
+@url = http://localhost:8080/api/member
+
+POST {{url}} HTTP/1.1
+Content-Type: application/json
+
+{
+    "username":"Deb1",
+    "password":"P@ssw0rd!", 
+    "email":"WORK@smith.com"
+    
+}
+
